@@ -1,117 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farutnen Dev & Desing</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!--styles CSS-->
+    <link rel="stylesheet" href="./styles/css/styles.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./styles/css/bootstrap.css">
 
-
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <main class="container-fluid">
     <nav class="nav navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link active" href="#">Inicio</a>
             </li>
-            <a class="nav-link" href="#" aria-current="page">CV</a>
+            <a class="nav-link" href="./pages/CV-Nahuel_Farut,--.pdf" aria-current="page">CV</a>
             <a class="nav-link" href="./pages/services.html">Servicios</a>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Portfolio(proximamente)</a>
             </li>
         </ul>
     </nav>
-    <main>
         <div class="container">
             <section class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <h1>Farutnen</h1>
                     <h2>Diseñador Multimedial</h2>
                     <p>todas las posibilidades. Hechos al instante</p>
-                    <button type="button" class="btn btn-primary">Ver diseños</button>
+                    <div class="botonVer">
+                        <button type="button" class="btn">Ver diseños</button>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <img class="img-perfil-foto" src="./img/foto.png" alt="Foto-perfil">
                 </div>
             </section>
         </div>
-        <div id="about"class="container-fluid">
-            <section  class="row">
-                <div class="col">
-                    <h1>Sobre Mi</h1>
-                    <p>Soy Diseñador, convierto mis ideas en creaciones para distintas plataformas tanto web, como gráficas a través de ilustraciones o fotomontajes. Si crees que necesitas llevar tu marca a ser reconocida por las redes, o en algún medio, envíame un mensaje, te contestaré a la brevedad.</p>
-                </div>
-            </section>
-                <section class="row">
-                    <h2>Habilidades de Desarrollador</h2>
-                    <div class="col-sm-12">
-                        <h3>Lenguajes de Programación:</h3>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>php</li>
-                            <li>Python</li>
-                            <li>C++</li>
-                        </ul>
-                        <h3>FrontEnd</h3>
-                        <ul>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Bootstrap</li>
-                            <li>React</li>
-                            <li>Wordpress</li>
-                            <li>WooCommerce</li>
-                        </ul>
-                        <h3>BackEnd:</h3>
-                        <ul>
-                            <li>NodeJS</li>
-                            <li>Express</li>
-                            <li>MySQL</li>
-                            <li>NPM</li>
-                            <li>UML</li>
-                        </ul>
-                        <h3>Otras Herramientas:</h3>
-                        <ul>
-                            <li>Git</li>
-                            <li>GitHub</li>
-                        </ul>
-                    </div>
-                    <h2>Habilidades de Diseñador</h2>
-                    <div class="col-sm-12">
-                        <h3>Paquete de Adobe:</h3>
-                        <ul>
-                            <li>Photoshop</li>
-                            <li>Illustrator</li>
-                            <li>Premiere</li>
-                            <li>After Effects</li>
-                            <li>Audition</li>
-                            <li>Adobe XD</li>
-                        </ul>
-                        <h3>Otros Programas de maquetado:</h3>
-                        <ul>
-                            <li>Excalibur</li>
-                            <li>Figma</li>
-                            <li>Trello</li>
-                        </ul>
-                        <h3>Diseños en 3D:</h3>
-                        <ul>
-                            <li>Cinema 4D</li>
-                            <li>3Ds Max</li>
-                            <li>Unity</li>
-                        </ul>
-                    </div>
-                    <h2>Idiomas:</h2>
-                    <ul>
-                        <li>Inglés: Avanzado</li>
-                        <li>Francés: Avanzado</li>
-                    </ul>
-                </section>
-                <section class="row">
-                    <h2>Proyectos Realizados:</h2>
-                    
-                </section>
-            </div>
     </main>
+    <div class="container-fluid">
+        <section class="row">
+            <div id="about" class="col">
+                <h1>Sobre Mi</h1>
+                <p>Soy Diseñador, convierto mis ideas en creaciones para distintas plataformas tanto web, como gráficas
+                    a través de ilustraciones o fotomontajes. Si crees que necesitas llevar tu marca a ser reconocida
+                    por las redes, o en algún medio, envíame un mensaje, te contestaré a la brevedad.</p>
+            </div>
+        </section>
+        <section class="row">
+            <h2>Habilidades de Desarrollador</h2>
+            <div class="col-sm-12 col-lg-4 skills">
+                <h3>Lenguajes de Programación:</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>php</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+                <div class="col-sm-12 col-lg-4 skills">
+                    <h3>FrontEnd</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                        <li>Wordpress</li>
+                        <li>WooCommerce</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-4 skills">
+                    <h3>BackEnd:</h3>
+                    <ul>
+                        <li>NodeJS</li>
+                        <li>Express</li>
+                        <li>MySQL</li>
+                        <li>NPM</li>
+                        <li>UML</li>
+                    </ul>
+                    <h3>Otras Herramientas:</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </div>
+            <h2>Habilidades de Diseñador</h2>
+            <div class="col-sm-12 col-lg-4 skills">
+                <h3>Paquete de Adobe:</h3>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Illustrator</li>
+                    <li>Premiere</li>
+                    <li>After Effects</li>
+                    <li>Audition</li>
+                    <li>Adobe XD</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-4 skills">
+                <h3>Otros Programas de maquetado:</h3>
+                <ul>
+                    <li>Excalibur</li>
+                    <li>Figma</li>
+                    <li>Trello</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-4 skills">
+            <h3>Diseños en 3D:</h3>
+                <ul>
+                    <li>Cinema 4D</li>
+                    <li>3Ds Max</li>
+                    <li>Unity</li>
+                </ul>
+            </div>
+            <h2>Idiomas:</h2>
+            <ul>
+                <li>Inglés: Avanzado</li>
+                <li>Francés: Avanzado</li>
+            </ul>
+        </section>
+        <section class="row">
+            <h2>Proyectos Realizados:</h2>
+
+        </section>
+    </div>
 </body>
+
 </html>
