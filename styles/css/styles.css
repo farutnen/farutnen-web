@@ -1,7 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container-fuid {
+  width: 100%;
+}
+
 nav {
-  color: wheat;
+  width: 100%;
 }
 
 * {
@@ -26,6 +40,9 @@ p {
   width: 100%;
   height: fit-content;
 }
+.container .dev, .container .desing {
+  text-align: center;
+}
 
 .skills {
   justify-content: center;
@@ -37,17 +54,22 @@ p {
 }
 
 .row {
-  display: flex;
   align-items: center;
   border-radius: 5%;
   align-items: start;
 }
-
-.col {
-  flex-direction: row;
-  align-items: center;
+.row h3 {
+  padding-left: 30px;
 }
 
+.skills {
+  align-items: center;
+}
+.skills ul {
+  margin: 10%;
+  align-items: center;
+  background-color: aqua;
+}
 .botonVer {
   display: flex;
   justify-content: center;

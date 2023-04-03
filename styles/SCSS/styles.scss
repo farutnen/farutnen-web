@@ -1,5 +1,6 @@
 @import "./partials/reset";
 @import "./partials/nav";
+@import "./partials/buttons";
 
 * {
     padding: 0;
@@ -12,15 +13,16 @@ p{
 .container-fuid{
     width: 100%;
 }
-
 .container{
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-width: 100%;
-height: fit-content;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    .dev, .desing{
+        text-align: center;
+    }
 }
 .skills{
     justify-content: center;
@@ -32,14 +34,24 @@ height: fit-content;
 }
 
 .row{
-    display: flex;
     align-items: center;
     border-radius: 5%;
     align-items: start;
+    h3{
+        padding-left: 30px;
+    }
+
 }
-.col{
-    flex-direction: row;
+.skills{
     align-items: center;
+    ul{
+        margin: 10%;
+        align-items: center;
+        background-color: aqua;
+        li{
+
+        }
+    }
 
 }
 .botonVer{
