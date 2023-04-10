@@ -1,18 +1,10 @@
 @import "./partials/reset";
+@import "./partials/bars__menu";
 @import "./partials/nav";
 @import "./partials/buttons";
+@import "./partials/footer";
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-p{
-    font-size: 16px;
-}
-.container-fuid{
-    width: 100%;
-}
+
 .container{
     display: flex;
     align-items: center;
@@ -27,7 +19,6 @@ p{
 .skills{
     justify-content: center;
     background-color: black;
-    padding: 5px;
     ul{
         list-style: none;
     }
@@ -70,15 +61,6 @@ p{
     .img-perfil-foto{
         display: block;
     }
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(215, 215, 215);
-    padding-top: 50px;
-    grid-area: footer;
 }
 
 #about{
