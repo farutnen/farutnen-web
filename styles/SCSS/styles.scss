@@ -1,71 +1,10 @@
 @import "./partials/reset";
 @import "./partials/bars__menu";
 @import "./partials/nav";
+@import "./partials/wave";
 @import "./partials/buttons";
 @import "./partials/footer";
-
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: fit-content;
-    .dev, .desing{
-        text-align: center;
-    }
-}
-.skills{
-    justify-content: center;
-    background-color: black;
-    ul{
-        list-style: none;
-    }
-}
-
-.row{
-    align-items: center;
-    border-radius: 5%;
-    align-items: start;
-    h3{
-        padding-left: 30px;
-    }
-
-}
-.skills{
-    align-items: center;
-    ul{
-        margin: 10%;
-        align-items: center;
-        background-color: aqua;
-        li{
-
-        }
-    }
-
-}
-.botonVer{
-    display: flex;
-    justify-content: center;
-    button.btn{
-        color: black;
-        background-color: crimson;
-    }
-}
-
-.img-perfil-foto{
-    display: inline-block;
-}
-@media screen and (max-width: 600px) {
-    .img-perfil-foto{
-        display: block;
-    }
-}
-
-#about{
-    background-color: cornflowerblue;
-    display: flex;
-    padding-bottom: 10%;
-    align-content: center;
-}
+@import "./partials/language";
+@import "./partials/body";
+@import "./partials/img";
+@import "./partials/media-queries";

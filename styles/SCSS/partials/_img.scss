@@ -1,0 +1,10 @@
+
+
+.img-perfil-foto{
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .img-perfil-foto{
+        display: none;
+    }
+}

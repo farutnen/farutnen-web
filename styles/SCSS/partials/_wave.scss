@@ -1,0 +1,14 @@
+#wave{
+    position: absolute;
+    z-index: -1;
+    height: 85vh;
+    margin-left: -1600px;
+    animation: animationWave 8s linear infinite alternate;
+}
+
+@keyframes animationWave{
+    from {
+        margin-left: 0px;
+    }
+
+}

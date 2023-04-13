@@ -1,0 +1,87 @@
+
+body{
+    overflow-x: hidden;
+}    
+.container{
+    padding-top: 30px;
+}
+.container.banner{
+    padding-top: 40px;
+    
+
+    #bannerCentrado{
+
+        display: flex;
+        align-items: center;
+        .titulo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                font-size: 22px;
+            }
+        }
+    }
+}   
+
+.skills{
+    padding: 20px 0 20px 0;
+    color: #fff;
+    justify-content: center;
+   
+
+}
+
+.list-items{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 15px;
+    background-color: grey;
+    padding: 20px 0 20px 0;
+    &:hover{
+
+        background-color: cornflowerblue;
+        transition: all 0.7s ease-in-out;
+    }
+    .frontend{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+}
+
+.fondo{
+    background-color: cornflowerblue;
+}
+
+.row.dev, .row.desing{
+    display: flex;
+    align-items: stretch;
+    border-radius: 25%; 
+    border-radius: 20px;
+    background-color:darkseagreen;
+    padding: 20px; 
+}
+h2{
+    align-content: center;
+}
+#about{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    align-content: center;
+    p{
+        font-size: 24px;
+
+    }
+}
+
+
+.services{
+    width: 100%;
+}
